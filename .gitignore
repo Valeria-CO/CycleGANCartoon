@@ -1,0 +1,8 @@
+.venv/
+.idea/
+dataset/
+results/
+
+__pycache__/
+*.py[cod]
+*.pyo
