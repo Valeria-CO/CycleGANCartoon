@@ -19,10 +19,13 @@ Training CycleGANs can be highly unstable. I experimented with different techniq
 - Learning rate tuning and schedulers
 - Varying loss weights for cycle and identity loss
 
-I didn't get exactly what I expected, but it's my first project from scratch and I got good experience,
-I think I will come back to this a little later. My dataset was quite small (1000 style images and 250 photos), so I think
-with the expansion of the dataset the result will get better.
-I'll include some examples my results below. These results have been reached 140 epochs of training.
+
+
+Notes:
+
+This was my first deep learning project built from scratch. While the results are not perfect, I gained a lot of hands-on experience working with GANs.
+My dataset was relatively small (1000 style images and 250 photos), so I believe that increasing the dataset size could improve the results significantly.
+Below are a few examples of my model’s outputs after ~140 epochs of training.
 The model version provided here is the best among those trained, and demonstrates key ideas of the CycleGAN architecture.
 
-![  INPUT       /   GENERATED       /  RE-CONVERTED    ](results/00_collage.jpg)
+![  INPUT       /   GENERATED       /  RE-CONVERTED    ](00_collage.jpg)
