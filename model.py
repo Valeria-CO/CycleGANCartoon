@@ -82,9 +82,9 @@ class DisCartoon(nn.Module):
 
 
 # model = GenCartoon()
-# d = torch.randn(1, 3, 128, 128)  # подаём случайное изображение
+# d = torch.randn(1, 3, 128, 128)
 # out = model(d)
-# print(out.shape)  # должно быть torch.Size([1, 3, 128, 128])
+# print(out.shape)  # must be torch.Size([1, 3, 128, 128])
 #
 #
 # D = DisCartoon()
