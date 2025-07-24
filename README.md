@@ -24,8 +24,8 @@ Training CycleGANs can be highly unstable. I experimented with different techniq
 Notes:
 
 This was my first deep learning project built from scratch. While the results are not perfect, I gained a lot of hands-on experience working with GANs.
-My dataset was relatively small (1000 style images and 250 photos), so I believe that increasing the dataset size could improve the results significantly.
-Below are a few examples of my model’s outputs after ~140 epochs of training.
+My dataset was relatively small (1000 style images and 400 photos), so I believe that increasing the dataset size could improve the results significantly.
+Below are a few examples of my model’s outputs after 140 epochs of training.
 The model version provided here is the best among those trained, and demonstrates key ideas of the CycleGAN architecture.
 
 ![  INPUT       /   GENERATED       /  RE-CONVERTED    ](00_collage.jpg)
